@@ -55,10 +55,7 @@ public class OrdersTests {
                 .body("createdOrder.products[0].quantity", is(quantity));
     }
 
-    @Test
-    public void verifyUserIsAbleToGetDetailsOfAnOrder() {
-
-    }
+   
 
     private String loginAndFetchAuthToken() throws ParseException {
         JSONObject requestBody = new JSONObject();
